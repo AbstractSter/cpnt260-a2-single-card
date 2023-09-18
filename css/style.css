@@ -16,28 +16,13 @@ padding: 2rem;
 border-radius: 1rem;
 margin: auto;
 margin-top: 5rem;
-text-align: center;
+text-align: left;
 
 background-color: hsl(205, 100%, 50%);
 }
 
-/* Call to Action "button" */
-.cta a, .cta a:visited {
-  font-family: "Carter One", serif;
-  padding: 0.5rem 1rem;
-  margin: auto;
-  width: max-content;
-  text-decoration: none;
-  
-  color: hsl(50, 51%, 11%);
-  background-color: hsl(50, 52%, 48%);
-  border-radius: .5rem;
-  display: block;
-  
-}
-
 /* Hover state */
-.cta a:hover {
+.body {
   background-color: hsl(98, 100%, 60%);
   color: hsl(290, 100%, 50%);
 }
