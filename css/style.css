@@ -4,34 +4,48 @@ body {
   font-size: 22px;
   line-height: 1.5;
 
-  background-color: hsl(130, 100%, 82%);
-  background-image: linear-gradient((45deg, (100, 28%, 65%), hsl(205, 100%, 50%)));
+  color: hsl(130, 88%, 95%);
+  background-color: hsl(205, 48%, 65%);
+  background-image: linear-gradient(45deg, hsl(225, 100%, 65%), hsl(205, 100%, 65%));
+  background-image: linear-gradient(45deg, red, hsl(205, 100%, 65%));
+
   min-height: 100vh;
 }
 
 /* Call-to-action container */
-.cta, p {
-max-width: 50ch;
-padding: 2rem;
-border-radius: 1rem;
+.cta {
+  margin: auto;
+  margin-top: 5rem;
+  padding: 2rem;
+  max-width: 30ch;
+  
+  border-radius: 1rem;
+  background-color: hsl(205, 88%, 25%);
+}
 
-background-color: hsl(205, 100%, 50%);
-
-margin: auto;
-text-align: left;
-color: hsl(0, 0%, 2%);
+/* Call to Action "button" */
+.cta a, .cta a:visited {
+  margin: auto;
+  padding: 0.5rem 1rem;
+  display: block;
+  width: fit-content;
+  
+  font-family: "Carter One", serif;
+  text-decoration: none;
+  
+  background-color: hsl(50, 100%, 60%);
+  color: hsl(50, 50%, 20%);
+  border-radius: .5rem;
 }
 
 /* Hover state */
-.p {
-  background-color: hsl(205, 95%, 76%)
+.cta a:hover {
+  background-color: hsl(50, 100%, 40%);
+  color: hsl(50, 50%, 95%);
 }
 
 /* Click state */
 .cta a:active {
-  color: hsl(290, 100%, 50%);
-}
-
-img {
-  https://picsum.photos/id/29/4000/2670
+  background-color: hsl(0, 100%, 40%);
+  color: hsl(0, 50%, 95%);
 }
