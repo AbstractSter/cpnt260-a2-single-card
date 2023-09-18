@@ -10,21 +10,21 @@ body {
 }
 
 /* Call-to-action container */
-.cta {
+.cta, p {
 max-width: 50ch;
 padding: 2rem;
 border-radius: 1rem;
 margin: auto;
-margin-top: 5rem;
 text-align: left;
 
 background-color: hsl(205, 100%, 50%);
+
+color: hsl(0, 0%, 2%);
 }
 
 /* Hover state */
-.body {
-  background-color: hsl(98, 100%, 60%);
-  color: hsl(290, 100%, 50%);
+.p {
+  background-color: hsl(205, 95%, 76%)
 }
 
 /* Click state */
