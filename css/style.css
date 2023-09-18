@@ -14,11 +14,11 @@ body {
 max-width: 50ch;
 padding: 2rem;
 border-radius: 1rem;
-margin: auto;
-text-align: left;
 
 background-color: hsl(205, 100%, 50%);
 
+margin: auto;
+text-align: left;
 color: hsl(0, 0%, 2%);
 }
 
@@ -30,4 +30,8 @@ color: hsl(0, 0%, 2%);
 /* Click state */
 .cta a:active {
   color: hsl(290, 100%, 50%);
+}
+
+img {
+  https://picsum.photos/id/29/4000/2670
 }
