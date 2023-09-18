@@ -44,5 +44,5 @@ background-color: hsl(205, 100%, 50%);
 
 /* Click state */
 .cta a:active {
-
+  color: hsl(290, 100%, 50%);
 }
