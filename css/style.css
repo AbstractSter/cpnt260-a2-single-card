@@ -29,7 +29,8 @@ body {
   
   font-family: "Carter One", serif;
   text-decoration: none;
-  
+
+  background-image: url(https://fastly.picsum.photos/id/63/200/185.jpg?hmac=HvaeSK6WT-G9bYF_CyB2m1ARQirL8UMnygdU9W6PDvM);
   background-color: hsl(50, 100%, 60%);
   color: hsl(50, 50%, 20%);
   border-radius: .5rem;
@@ -37,7 +38,7 @@ body {
 
 /* Hover state */
 .cta a:hover {
-  background-color: hsl(50, 100%, 40%);
+  background-color: hsl(50, 58%, 56%);
   color: hsl(50, 50%, 95%);
 }
 
