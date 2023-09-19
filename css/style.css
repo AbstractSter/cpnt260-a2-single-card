@@ -1,5 +1,5 @@
-/* Body text */
 body {
+  /* Body text */
   font-family: "Lato", sans-serif;
   font-size: 22px;
   line-height: 1.5;
@@ -9,21 +9,24 @@ body {
   min-height: 100vh;
 }
 
-/* Call-to-action container */
+p {
+ font-size: small;
+}
+
 .cta {
+  /* Call-to-action container */
   margin: auto;
   margin-top: 2rem;
   padding: 2rem;
   max-width: 30ch;
   
   border-radius: 1rem;
-  background-color: hsl(205, 88%, 25%);
 }
 
-/* Call to Action "button" */
 .cta a {
+  /* Call to Action "button" */
   margin: auto;
-  padding: 0.5rem 1rem;
+  padding: 1.5rem 1.5rem;
   display: block;
   width: fit-content;
   
@@ -33,21 +36,25 @@ body {
   background-image: url(https://fastly.picsum.photos/id/63/200/185.jpg?hmac=HvaeSK6WT-G9bYF_CyB2m1ARQirL8UMnygdU9W6PDvM);
   background-color: hsl(50, 100%, 60%);
   color: hsl(50, 50%, 20%);
-  border-radius: .5rem;
+  border-radius: 1.5rem;
 }
 
-/* Hover state */
 .cta a:hover {
+  /* Hover state */
   background-color: hsl(50, 58%, 56%);
   color: hsl(50, 50%, 95%);
 }
 
-/* Click state */
 .cta a:active {
+  /* Click state */
   background-color: hsl(0, 100%, 40%);
   color: hsl(0, 50%, 95%);
 }
 
-.img  {
-  width: auto;
+img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5rem;
+  margin: auto;
 }
