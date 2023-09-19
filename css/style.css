@@ -8,6 +8,11 @@ body {
   min-height: 100vh;
 }
 
+/* Card Heading */
+h3 {
+  font-family: 'Lato', sans-serif, 'Montserrat', sans-serif;
+}
+
 /* Main Text */
 p {
  font-size: medium;
