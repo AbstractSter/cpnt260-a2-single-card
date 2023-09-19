@@ -1,5 +1,5 @@
+/* Body text */
 body {
-  /* Body text */
   font-size: 22px;
   line-height: 1.5;
 
@@ -8,13 +8,13 @@ body {
   min-height: 100vh;
 }
 
+/* Main Text */
 p {
-  /* Main Text */
  font-size: medium;
 }
 
+/* Call-to-action container */
 .cta {
-  /* Call-to-action container */
   margin: auto;
   margin-top: 2rem;
   max-width: 30ch;
@@ -23,8 +23,8 @@ p {
   border-radius: 1rem;
 }
 
+/* Call to Action "button" */
 .cta a {
-  /* Call to Action "button" */
   margin: auto;
   padding: 1.5rem 1.5rem;
   display: block;
@@ -33,26 +33,25 @@ p {
   font-family: "Carter One", serif;
   text-decoration: none;
 
-  background-image: url(https://fastly.picsum.photos/id/63/200/185.jpg?hmac=HvaeSK6WT-G9bYF_CyB2m1ARQirL8UMnygdU9W6PDvM);
-  background-color: hsl(50, 100%, 60%);
+  background-color: hsl(145, 94%, 81%);
   color: hsl(50, 60%, 2%);
   border-radius: 1.5rem;
 }
 
+/* Hover state */
 .cta a:hover {
-  /* Hover state */
-  background-color: hsl(205, 58%, 56%);
+  background-color: hsl(204, 47%, 20%);
   color: hsl(0, 14%, 99%);
 }
 
+/* Click state */
 .cta a:active {
-  /* Click state */
-  background-color: hsl(0, 100%, 40%);
+  background-color: hsl(64, 100%, 50%);
   color: hsl(0, 50%, 95%);
 }
 
+/* Embedded Image */
 img {
-  /* Embedded Image */
   object-fit: fill;
   width: 100%;
   height: 100%;
