@@ -1,6 +1,6 @@
 # cpnt260-a2-single-card
 
-CPNT 260 Assignment 2
+CPNT 260
 
 Assignment 2 - Single Card
 
