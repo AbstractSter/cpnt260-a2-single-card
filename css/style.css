@@ -15,7 +15,7 @@ body {
 /* Call-to-action container */
 .cta {
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding: 2rem;
   max-width: 30ch;
   
@@ -24,7 +24,7 @@ body {
 }
 
 /* Call to Action "button" */
-.cta a, .cta a:visited {
+.cta a {
   margin: auto;
   padding: 0.5rem 1rem;
   display: block;
