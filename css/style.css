@@ -4,9 +4,6 @@ body {
   font-size: 22px;
   line-height: 1.5;
 
-  color: hsl(130, 88%, 95%);
-  background-color: hsl(205, 48%, 65%);
-  background-image: linear-gradient(45deg, hsl(225, 100%, 65%), hsl(205, 100%, 65%));
   background-image: linear-gradient(45deg, red, hsl(205, 100%, 65%));
 
   min-height: 100vh;
