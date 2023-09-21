@@ -9,5 +9,5 @@
 - object-fit - Line 60 CSS
 
 ### Attributions
-- https://github.com/sait-wbdv/dailies-f23/blob/main/2023-09-15-clickable-links/02-call-to-action-finished/index.html
-- https://fonts.google.com/specimen/Lato
+- [Tony's code from GitHub](https://github.com/sait-wbdv/dailies-f23/blob/main/2023-09-15-clickable-links/02-call-to-action-finished/index.html)
+- [Lato](https://fonts.google.com/specimen/Lato)
