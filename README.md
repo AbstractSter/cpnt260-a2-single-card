@@ -1,14 +1,13 @@
-# cpnt260-a2-single-card
+# CPNT 260
+## cpnt260-a2-single-card
+## Assignment 2 - Single Card
 
-CPNT 260
+### Author: Sterling Smith
+- [Git Hub Repo](https://abstractster.github.io/cpnt260-a2-single-card/)
 
-Assignment 2 - Single Card
+### Above & beyond: 
+- object-fit - Line 60 CSS
 
-Author: Sterling Smith
-
-https://abstractster.github.io/cpnt260-a2-single-card/
-
-Above & beyond: object-fit - Line 60 CSS
-
-Code that was not my own
-https://github.com/sait-wbdv/dailies-f23/blob/main/2023-09-15-clickable-links/02-call-to-action-finished/index.html
+### Attributions
+- https://github.com/sait-wbdv/dailies-f23/blob/main/2023-09-15-clickable-links/02-call-to-action-finished/index.html
+- https://fonts.google.com/specimen/Lato
